@@ -1,29 +1,29 @@
 using UnityEngine;
 
-public class StageVisuals : MonoBehaviour
+public class Aging : MonoBehaviour
 {
     [SerializeField] private GameObject[] stageObjects; // assign in Inspector, in stage order
 
     private void OnEnable()
     {
-        temp_timelogic.OnTimeStageChanged += UpdateStageVisuals;
+        ScrollbarController.OnTimeStageChanged += UpdateStageVisuals;
     }
 
     private void OnDisable()
     {
-        temp_timelogic.OnTimeStageChanged -= UpdateStageVisuals;
+        ScrollbarController.OnTimeStageChanged -= UpdateStageVisuals;
     }
 
     private void Start()
     {
-        UpdateStageVisuals(0); // set correct initial state
+        UpdateStageVisuals(1); // default to stage 3 (present) at scene start
     }
 
     private void UpdateStageVisuals(int stage)
     {
         for (int i = 0; i < stageObjects.Length; i++)
         {
-            stageObjects[i].SetActive(i == stage);
+            stageObjects[i].SetActive(i == stage - 1);
         }
     }
 }
