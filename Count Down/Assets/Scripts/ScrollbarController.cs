@@ -1,12 +1,14 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.InputSystem;
 
 public class ScrollbarController : MonoBehaviour
 {
     [SerializeField] private Scrollbar scrollbar;
     [SerializeField] private TextMeshProUGUI valueText;
-    private int maxStages = 3;
+    [SerializeField] private float step = 0.05f;
+    [SerializeField] private int maxStages = 3;
     public int currentStage = 1;
 
     private void Start()
@@ -18,6 +20,11 @@ public class ScrollbarController : MonoBehaviour
     private void UpdateText(float value)
     {
         currentStage = Mathf.CeilToInt(maxStages * value);
+
+        if (currentStage == 0)
+        {
+            currentStage = 1;
+        }
         valueText.text = "Current stage: " + currentStage.ToString();
     }
 }
