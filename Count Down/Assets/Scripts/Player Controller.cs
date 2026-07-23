@@ -168,6 +168,11 @@ namespace TarodevController
                 _frameVelocity.x = Mathf.MoveTowards(_frameVelocity.x, _frameInput.Move.x * _stats.MaxSpeed, _stats.Acceleration * Time.fixedDeltaTime);
             }
         }
+        private float _externalVelocity;
+        public void Bounce(float force)
+        {
+             _externalVelocity = force;
+        }
 
         #endregion
 
@@ -189,7 +194,16 @@ namespace TarodevController
 
         #endregion
 
-        private void ApplyMovement() => _rb.linearVelocity = _frameVelocity;
+        private void ApplyMovement()
+        {
+            if (_externalVelocity != 0)
+            {
+                _frameVelocity.y = _externalVelocity;
+                _externalVelocity = 0;
+            }
+
+            _rb.linearVelocity = _frameVelocity;
+        }
 
 #if UNITY_EDITOR
         private void OnValidate()

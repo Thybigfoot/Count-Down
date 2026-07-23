@@ -7,7 +7,7 @@ public class ScrollbarController : MonoBehaviour
 {
     [SerializeField] private Scrollbar scrollbar;
     [SerializeField] private TextMeshProUGUI valueText;
-    [SerializeField] private int maxStages = 3;
+    [SerializeField] private int maxStages = 4;
     public int currentStage = 1;
 
     public static event Action<int> OnTimeStageChanged;
@@ -31,11 +31,11 @@ public class ScrollbarController : MonoBehaviour
     }
     private void UpdateText(float value)
     {
-        int newStage = Mathf.CeilToInt(maxStages * value);
+        int newStage = Mathf.FloorToInt(value * maxStages) + 1;
 
-        if (newStage == 0)
+        if (newStage > maxStages)
         {
-            newStage = 1;
+            newStage = maxStages;
         }
 
         valueText.text = "Current stage: " + newStage.ToString();
