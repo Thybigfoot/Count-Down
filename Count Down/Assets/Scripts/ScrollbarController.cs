@@ -19,7 +19,16 @@ public class ScrollbarController : MonoBehaviour
         scrollbar.onValueChanged.AddListener(UpdateText);
         UpdateText(scrollbar.value); // Display initial value and set initial visuals
     }
+    private void Update()
+    {
+        float speed = 0.75f;
 
+        if (Input.GetKey(KeyCode.LeftArrow))
+            scrollbar.value += speed * Time.deltaTime;
+
+        if (Input.GetKey(KeyCode.RightArrow))
+            scrollbar.value -= speed * Time.deltaTime;
+    }
     private void UpdateText(float value)
     {
         int newStage = Mathf.CeilToInt(maxStages * value);
