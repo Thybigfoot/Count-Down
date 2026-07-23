@@ -85,20 +85,33 @@ namespace TarodevController
         
         private float _frameLeftGrounded = float.MinValue;
         private bool _grounded;
+        private Walking _currentPlatform;
 
         private void CheckCollisions()
         {
             Physics2D.queriesStartInColliders = false;
 
             // Ground and Ceiling
-            bool groundHit = Physics2D.CapsuleCast(_col.bounds.center, _col.size, _col.direction, 0, Vector2.down, _stats.GrounderDistance, ~_stats.PlayerLayer);
+            RaycastHit2D groundHit = Physics2D.CapsuleCast(
+                _col.bounds.center,
+                _col.size,
+                _col.direction,
+                0,
+                Vector2.down,
+                _stats.GrounderDistance,
+                ~_stats.PlayerLayer
+            );
+
+            bool grounded = groundHit;
+
+
             bool ceilingHit = Physics2D.CapsuleCast(_col.bounds.center, _col.size, _col.direction, 0, Vector2.up, _stats.GrounderDistance, ~_stats.PlayerLayer);
 
             // Hit a Ceiling
             if (ceilingHit) _frameVelocity.y = Mathf.Min(0, _frameVelocity.y);
 
             // Landed on the Ground
-            if (!_grounded && groundHit)
+            if (!_grounded && grounded)
             {
                 _grounded = true;
                 _coyoteUsable = true;
@@ -107,11 +120,19 @@ namespace TarodevController
                 GroundedChanged?.Invoke(true, Mathf.Abs(_frameVelocity.y));
             }
             // Left the Ground
-            else if (_grounded && !groundHit)
+            else if (_grounded && !grounded)
             {
                 _grounded = false;
                 _frameLeftGrounded = _time;
                 GroundedChanged?.Invoke(false, 0);
+            }
+            if (grounded)
+            {
+                _currentPlatform = groundHit.collider.GetComponent<Walking>();
+            }
+            else
+            {
+                _currentPlatform = null;
             }
 
             Physics2D.queriesStartInColliders = _cachedQueryStartInColliders;
@@ -202,7 +223,14 @@ namespace TarodevController
                 _externalVelocity = 0;
             }
 
-            _rb.linearVelocity = _frameVelocity;
+            Vector2 movement = _frameVelocity;
+
+            if (_currentPlatform != null)
+            {
+                transform.position += (Vector3)_currentPlatform.DeltaMovement;
+            }
+
+            _rb.linearVelocity = movement;
         }
 
 #if UNITY_EDITOR
