@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbed8598a3926447ea431b8f872b53c9, type: 3}
+  m_Name: IntroDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - text: 'What have we got here? '
+    flag: 
+  - text: Another murder..
+    flag: zoom_out
+  - text: Let me use camera's CCTV to see how the room looked like since the murder
+    flag: sb_show
+  - text: 'I also need to find evidence to get a clearer picture in my head '
+    flag: ev_show
+  - text: That way I can crack this case!
+    flag: 
+  - text: 
+    flag: 

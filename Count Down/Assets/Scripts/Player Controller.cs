@@ -19,6 +19,7 @@ namespace TarodevController
         private FrameInput _frameInput;
         private Vector2 _frameVelocity;
         private bool _cachedQueryStartInColliders;
+        private bool _canMove = true;
 
         #region Interface
 
@@ -29,6 +30,11 @@ namespace TarodevController
         #endregion
 
         private float _time;
+
+        public void SetMovementEnabled(bool enabled)
+        {
+            _canMove = enabled;
+        }
 
         private void Awake()
         {
@@ -46,6 +52,12 @@ namespace TarodevController
 
         private void GatherInput()
         {
+            if (!_canMove)
+            {
+                _frameInput = new FrameInput();
+                return;
+            }
+
             _frameInput = new FrameInput
             {
                 JumpDown = Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.C),
@@ -72,6 +84,12 @@ namespace TarodevController
 
         private void FixedUpdate()
         {
+            if (!_canMove)
+            {
+                _rb.linearVelocity = Vector2.zero;
+                return;
+            }
+            
             CheckCollisions();
 
             HandleJump();
