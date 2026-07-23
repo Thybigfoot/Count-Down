@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,20 +10,44 @@ public class ScrollbarController : MonoBehaviour
     [SerializeField] private int maxStages = 3;
     public int currentStage = 1;
 
+    public static event Action<int> OnTimeStageChanged;
+
     private void Start()
     {
+        scrollbar.direction = Scrollbar.Direction.RightToLeft; // can also just set this in Inspector
+        scrollbar.value = 0f;
         scrollbar.onValueChanged.AddListener(UpdateText);
-        UpdateText(scrollbar.value); // Display initial value
+        UpdateText(scrollbar.value); // Display initial value and set initial visuals
     }
+    private void Update()
+    {
+        float speed = 0.75f;
 
+        if (Input.GetKey(KeyCode.LeftArrow))
+            scrollbar.value += speed * Time.deltaTime;
+
+        if (Input.GetKey(KeyCode.RightArrow))
+            scrollbar.value -= speed * Time.deltaTime;
+    }
     private void UpdateText(float value)
     {
-        currentStage = Mathf.CeilToInt(maxStages * value);
+        int newStage = Mathf.CeilToInt(maxStages * value);
 
-        if (currentStage == 0)
+        if (newStage == 0)
         {
-            currentStage = 1;
+            newStage = 1;
         }
-        valueText.text = "Current stage: " + currentStage.ToString();
+
+        valueText.text = "Current stage: " + newStage.ToString();
+
+        if (newStage != currentStage)
+        {
+            currentStage = newStage;
+            OnTimeStageChanged?.Invoke(currentStage);
+        }
+        else
+        {
+            currentStage = newStage;
+        }
     }
 }
