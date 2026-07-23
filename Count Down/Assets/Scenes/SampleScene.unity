@@ -376,7 +376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ab60fc5ed0f84b589e5be613035893e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  openedSprite: {fileID: -5975938820719141926, guid: 42d63060312f44d5e89f229af0e3449b, type: 3}
+  openedSprite: {fileID: 21300000, guid: 42d63060312f44d5e89f229af0e3449b, type: 3}
 --- !u!212 &278831887
 SpriteRenderer:
   serializedVersion: 2
