@@ -496,7 +496,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScrollbarController
   scrollbar: {fileID: 7883195862198580304}
   valueText: {fileID: 1757539829600577511}
-  maxStages: 3
+  maxStages: 4
   currentStage: 1
 --- !u!1 &6395786952407024695
 GameObject:
