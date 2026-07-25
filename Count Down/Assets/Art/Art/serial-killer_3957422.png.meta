@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 644b27b9a2b534901a1ea0caf3e6376a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5831186093381258562
+    second: serial-killer_3957422_0
+  - first:
+      213: -785990387173377439
+    second: serial-killer_3957422_1
+  - first:
+      213: -6017261765189921384
+    second: serial-killer_3957422_2
+  - first:
+      213: -5722987062514030949
+    second: serial-killer_3957422_3
+  - first:
+      213: 7365282831727729293
+    second: serial-killer_3957422_4
+  - first:
+      213: 2917882910556794042
+    second: serial-killer_3957422_5
+  - first:
+      213: -936130104766739325
+    second: serial-killer_3957422_6
+  - first:
+      213: 3693209092452816842
+    second: serial-killer_3957422_7
+  - first:
+      213: -8639478222149273647
+    second: serial-killer_3957422_8
+  - first:
+      213: 8026242657464373420
+    second: serial-killer_3957422_9
+  - first:
+      213: -6080167435862096018
+    second: serial-killer_3957422_10
+  - first:
+      213: 228902208730445003
+    second: serial-killer_3957422_11
+  - first:
+      213: 6164318110779175062
+    second: serial-killer_3957422_12
+  - first:
+      213: -3777586122888235871
+    second: serial-killer_3957422_13
+  - first:
+      213: 970825255680635697
+    second: serial-killer_3957422_14
+  - first:
+      213: -1558437968574493857
+    second: serial-killer_3957422_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: serial-killer_3957422_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 352
+        width: 338
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2ffcc9427731fa0800000000000000
+      internalID: -5831186093381258562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: serial-killer_3957422_1
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 178
+        width: 268
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ab8af38e99715f0800000000000000
+      internalID: -785990387173377439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: serial-killer_3957422_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 299
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895905d2e446e7ca0800000000000000
+      internalID: -6017261765189921384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: serial-killer_3957422_3
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 299
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96e1bc969dd390b0800000000000000
+      internalID: -5722987062514030949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: serial-killer_3957422_4
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 185
+        width: 71
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a1a6766bdb63660800000000000000
+      internalID: 7365282831727729293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: serial-killer_3957422_5
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 102
+        width: 38
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abcabeb2c076e7820800000000000000
+      internalID: 2917882910556794042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: serial-killer_3957422_6
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 185
+        width: 72
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c44d921a23203f0800000000000000
+      internalID: -936130104766739325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: serial-killer_3957422_7
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 157
+        width: 56
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac794e42a1ae04330800000000000000
+      internalID: 3693209092452816842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: serial-killer_3957422_8
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 69
+        width: 91
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7b114b4586a1880800000000000000
+      internalID: -8639478222149273647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: serial-killer_3957422_9
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 0
+        width: 91
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0504f0c21f26f60800000000000000
+      internalID: 8026242657464373420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: serial-killer_3957422_10
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 157
+        width: 56
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e67ca826ee7ee9ba0800000000000000
+      internalID: -6080167435862096018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: serial-killer_3957422_11
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 105
+        width: 72
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc43ea798593d2300800000000000000
+      internalID: 228902208730445003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: serial-killer_3957422_12
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 105
+        width: 72
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690ff7b69ae0c8550800000000000000
+      internalID: 6164318110779175062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: serial-killer_3957422_13
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 34
+        width: 129
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a43dcc8f61539bc0800000000000000
+      internalID: -3777586122888235871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: serial-killer_3957422_14
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 0
+        width: 38
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13372d72d60197d00800000000000000
+      internalID: 970825255680635697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: serial-killer_3957422_15
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5bc2aeace05f5ae0800000000000000
+      internalID: -1558437968574493857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      serial-killer_3957422_0: -5831186093381258562
+      serial-killer_3957422_1: -785990387173377439
+      serial-killer_3957422_10: -6080167435862096018
+      serial-killer_3957422_11: 228902208730445003
+      serial-killer_3957422_12: 6164318110779175062
+      serial-killer_3957422_13: -3777586122888235871
+      serial-killer_3957422_14: 970825255680635697
+      serial-killer_3957422_15: -1558437968574493857
+      serial-killer_3957422_2: -6017261765189921384
+      serial-killer_3957422_3: -5722987062514030949
+      serial-killer_3957422_4: 7365282831727729293
+      serial-killer_3957422_5: 2917882910556794042
+      serial-killer_3957422_6: -936130104766739325
+      serial-killer_3957422_7: 3693209092452816842
+      serial-killer_3957422_8: -8639478222149273647
+      serial-killer_3957422_9: 8026242657464373420
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
