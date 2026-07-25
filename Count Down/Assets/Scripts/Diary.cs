@@ -56,10 +56,12 @@ public class Diary : MonoBehaviour
             // Close current page if opening a new one
             pages[currentPage].gameObject.SetActive(false);
         }
-        GameObject page = Instantiate(pagePrefab, transform);
         maxPages += 1;
-        currentPage = maxPages-1;
 
+        GameObject page = Instantiate(pagePrefab, transform);
+        page.GetComponent<DiaryPage>().Initialise(maxPages);
+
+        currentPage = maxPages - 1;
         pages.Add(page.GetComponent<DiaryPage>());
     }
 
@@ -71,7 +73,15 @@ public class Diary : MonoBehaviour
     
     public void OnOpenButtonPressed()
     {
-        gameObject.SetActive(true);
+        if (gameObject.activeSelf)
+        {
+             gameObject.SetActive(false);
+        }
+        else
+        {
+            gameObject.SetActive(true);
+        }
+        
     }
     public void OnExitButtonPressed()
     {

@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,12 +12,14 @@ public class DiaryPage : MonoBehaviour
     [Header("Page flipping")]
     [SerializeField] private GameObject nextButton;
     [SerializeField] private GameObject previousButton;
+    [SerializeField] private TextMeshProUGUI number;
 
-    public int PageNumber { get; private set; }
+    public int pageNumber { get; private set; }
 
-    public void Initialise(int pageNumber)
+    public void Initialise(int pN)
     {
-        PageNumber = pageNumber;
+        pageNumber = pN;
+        number.text = pageNumber.ToString();
     }
 
     private void Awake()
@@ -30,6 +33,7 @@ public class DiaryPage : MonoBehaviour
 
     public void PickupEvidence(PickupType type, Sprite sprite)
     {
+        Debug.Log(evidence[type.ToString()]);
         evidence[type.ToString()].sprite = sprite;
 
         found += 1; 
