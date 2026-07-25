@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 1055067419498177694}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.34, z: 0}
+  m_LocalPosition: {x: -2.02, y: -1.34, z: 0}
   m_LocalScale: {x: 0.1697495, y: 0.1697495, z: 0.1697495}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   pointA: {fileID: 5813661508719614982}
   pointB: {fileID: 323058473385131869}
-  speed: 5
+  speed: 3
 --- !u!114 &1841313135626226509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,7 +193,7 @@ Transform:
   m_GameObject: {fileID: 2998953128174385607}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.71, z: 0}
+  m_LocalPosition: {x: -2.02, y: -2.71, z: 0}
   m_LocalScale: {x: 0.1697495, y: 0.1697495, z: 0.1697495}
   m_ConstrainProportionsScale: 0
   m_Children: []
