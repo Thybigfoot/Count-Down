@@ -4,12 +4,7 @@ using UnityEngine.UI;
 
 public class PlayerInteractions : MonoBehaviour
 {
-    [SerializeField] private Image MurdererUI;
-    [SerializeField] private Image WeaponUI;
-    [SerializeField] private Image VictimUI;
-    private bool murdererFound = false;
-    private bool weaponFound = false;
-    private bool victimFound = false;
+    [SerializeField] private Diary Diary;
 
     private Exit exit;
 
@@ -20,27 +15,6 @@ public class PlayerInteractions : MonoBehaviour
 
     public void PickupEvidence(PickupType type, Sprite sprite)
     {
-        switch (type)
-        {
-            case PickupType.Murderer:
-                MurdererUI.sprite = sprite;
-                murdererFound = true;
-                break;
-
-            case PickupType.Weapon:
-                WeaponUI.sprite = sprite;
-                weaponFound = true;
-                break;
-
-            case PickupType.Victim:
-                VictimUI.sprite = sprite;
-                victimFound = true;
-                break;
-        }
-
-        if (murdererFound && weaponFound && victimFound)
-        {
-            exit.OpenDoor();
-        }
+        Diary.PickupEvidence(type, sprite);
     }
 }

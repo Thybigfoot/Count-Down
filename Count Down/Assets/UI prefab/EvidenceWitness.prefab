@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7857706289886213129}
   - component: {fileID: 1891701352033402782}
   m_Layer: 0
-  m_Name: Evidence (2)
+  m_Name: EvidenceWitness
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -96,7 +96,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -3955913691694680740, guid: 28d6435dc3dd042c78ffb3f6015737f2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b518b190affe8424e92b8a1a1aec7b30, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -104,7 +104,7 @@ SpriteRenderer:
   m_Size: {x: 5.12, y: 5.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!61 &1891701352033402782
 BoxCollider2D:
