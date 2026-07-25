@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ScrollbarController : MonoBehaviour
 {
-    [SerializeField] private Scrollbar scrollbar;
+    [SerializeField] private Slider scrollbar;
     [SerializeField] private TextMeshProUGUI valueText;
     [SerializeField] private int maxStages = 3;
     public int currentStage = 1;
@@ -15,8 +15,9 @@ public class ScrollbarController : MonoBehaviour
 
     private void Start()
     {
-        scrollbar.direction = Scrollbar.Direction.RightToLeft; // can also just set this in Inspector
-        scrollbar.value = 0f;
+        //scrollbar.direction = Slider.Direction.RightToLeft; // can also just set this in Inspector
+        scrollbar.minValue = 1f;
+        scrollbar.maxValue = maxStages;
         scrollbar.onValueChanged.AddListener(UpdateText);
         UpdateText(scrollbar.value); // Display initial value and set initial visuals
     }
@@ -34,7 +35,8 @@ public class ScrollbarController : MonoBehaviour
     }
     private void UpdateText(float value)
     {
-        int newStage = Mathf.FloorToInt(value * maxStages) + 1;
+        //int newStage = Mathf.FloorToInt(value * maxStages) + 1;
+        int newStage = Mathf.FloorToInt(value);
 
         if (newStage > maxStages)
         {

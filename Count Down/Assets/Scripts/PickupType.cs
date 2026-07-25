@@ -1,6 +1,9 @@
 public enum PickupType
 {
-    Murderer,
+    Victim,
+    Time,
+    Witness,
     Weapon,
-    Victim
+    Fingerprint,
+    Murderer
 }
