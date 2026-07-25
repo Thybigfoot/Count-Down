@@ -21,14 +21,12 @@ namespace TarodevController
         private bool _cachedQueryStartInColliders;
         private bool _canMove = true;
 
-
         #region Interface
 
         public Vector2 FrameInput => _frameInput.Move;
         public event Action<bool, float> GroundedChanged;
         public event Action Jumped;
-        public bool Grounded => _grounded;
-         
+
         #endregion
 
         private float _time;
