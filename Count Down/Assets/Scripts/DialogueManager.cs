@@ -4,14 +4,25 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Linq;
+using UnityEngine.UI;
 
 
 public class DialogueManager : MonoBehaviour
 {
-    [SerializeField] private float characterDelay = 0.03f;
-    [SerializeField] private PlayerController player;
-    [SerializeField] private DialogueData[] dialogues;
+    
+    private GameObject player;
+    private GameObject diaryButton;
+    private GameObject scrollbar;
+    private GameObject exit;
+    private GameObject mainCamera;
+    [SerializeField] private GameObject victimEvidence;
+    [SerializeField] private GameObject weaponEvidence;
+    
     [SerializeField] private bool enable = false;
+
+    // Text appearance
+    [SerializeField] private float characterDelay = 0.03f;
+    [SerializeField] private DialogueData[] dialogues;
     private TextMeshProUGUI dialogueText;
     private Coroutine typingCoroutine;
     private bool isTyping;
@@ -23,10 +34,24 @@ public class DialogueManager : MonoBehaviour
     private void Awake()
     {
         if (enable){
+            // Connect objects
+            mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
+            player = GameObject.FindGameObjectWithTag("Player");
+            diaryButton = GameObject.FindGameObjectWithTag("DiaryButton");
+            scrollbar = GameObject.FindGameObjectWithTag("Scrollbar");
+            exit = GameObject.FindGameObjectWithTag("Exit");
+            dialogueText = GetComponent<TextMeshProUGUI>();
+            
+            // Disable movement
             player.GetComponent<PlayerController>().SetMovementEnabled(false);
-        }
-        dialogueText = GetComponent<TextMeshProUGUI>();
 
+            // Hide other UI
+            diaryButton.SetActive(false);
+            scrollbar.SetActive(false);
+
+            // Zoom in on the player
+            Camera.main.orthographicSize = 5f;
+        }
     }
 
     void Start()
@@ -36,24 +61,51 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+    private void ApplyFlag(string flag)
+    {
+        switch (flag)
+        {
+            case "victim_zoom":
+                mainCamera.GetComponent<CameraFollow>().target = victimEvidence.transform;
+                break;
+            case "weapon_zoom":
+                mainCamera.GetComponent<CameraFollow>().target = weaponEvidence.transform;
+                break;
+            case "diary":
+                diaryButton.SetActive(true);
+                break;
+            case "scrollbar":
+                scrollbar.SetActive(true);
+                break;
+            case "exit":
+                mainCamera.GetComponent<CameraFollow>().target = exit.transform;
+                break;
+            case "player_zoom":
+                mainCamera.GetComponent<CameraFollow>().target = player.transform;
+                break;
+        }
+    }
+
+    // Text appearance
     public void PlayDialogue()
     {
         currentDialogue = dialogues[currentDialogueNumber];
         NextLine();
     }
-
     private void NextLine()
     {
         if (currentLineNumber < currentDialogue.lines.Length-1)
         {
             ShowLine(currentDialogue.lines[currentLineNumber].text);
-            currentLineNumber += 1;
+            
 
             // Flag checker
             if (currentDialogue.lines[currentLineNumber].flag != null)
             {
                 ApplyFlag(currentDialogue.lines[currentLineNumber].flag);
             }
+
+            currentLineNumber += 1;
         }
         else
         {
@@ -62,15 +114,12 @@ public class DialogueManager : MonoBehaviour
             currentDialogue = null;
             currentDialogueNumber += 1;
             currentLineNumber = 0;
+
             player.GetComponent<PlayerController>().SetMovementEnabled(true);
+            mainCamera.GetComponent<CameraFollow>().target = player.transform;
+            Camera.main.orthographicSize = 8f;
         }
-    }
-
-    private void ApplyFlag(string flag)
-    {
-        return;
-    }
-
+    }   
     public void ShowLine(string line)
     {
         currentLine = line;
@@ -80,7 +129,6 @@ public class DialogueManager : MonoBehaviour
 
         typingCoroutine = StartCoroutine(TypeLine(line));
     }
-
     private IEnumerator TypeLine(string line)
     {
         isTyping = true;
@@ -94,9 +142,9 @@ public class DialogueManager : MonoBehaviour
 
         isTyping = false;
     }
-
     private void Update()
     {
+        // Typewrite effect
         if (currentDialogue != null){
             if (Keyboard.current.spaceKey.wasPressedThisFrame)
             {

@@ -14,14 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   lines:
   - text: 'What have we got here? '
-    flag: 
+    flag: player_zoom
   - text: Another murder..
-    flag: zoom_out
-  - text: Let me use camera's CCTV to see how the room looked like since the murder
-    flag: sb_show
-  - text: 'I also need to find evidence to get a clearer picture in my head '
-    flag: ev_show
+    flag: victim_zoom
+  - text: Luckily the suspect has left behind some evidence
+    flag: weapon_zoom
+  - text: 'I will log all the evidence I find into my diary '
+    flag: diary
+  - text: Using CCTV I can see how the room looked like since the murder, which will
+      help me find more evidence
+    flag: scrollbar
+  - text: Once I fill out the first page of my diary, I can move onto the next room
+    flag: exit
   - text: That way I can crack this case!
-    flag: 
-  - text: 
-    flag: 
+    flag: player_zoom

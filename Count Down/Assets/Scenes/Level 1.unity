@@ -414,33 +414,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3e6d7cb5ee03ec46a467bfe3096d536, type: 3}
---- !u!114 &568406711 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 664534246557884970, guid: c866563ea8628c44a97cdb65b2f49514, type: 3}
-  m_PrefabInstance: {fileID: 1710992097}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1 &948534351 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7775157797547939568, guid: d134c0221fb07a94795b4b963c5741b1, type: 3}
   m_PrefabInstance: {fileID: 2094824134}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &962747077 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9161325937238879261, guid: c866563ea8628c44a97cdb65b2f49514, type: 3}
-  m_PrefabInstance: {fileID: 1710992097}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1 &983142398
 GameObject:
   m_ObjectHideFlags: 0
@@ -830,17 +808,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8830752592186189197, guid: 6d9c68caa8cb2574cb725256aee8ca76, type: 3}
+      propertyPath: Diary
+      value: 
+      objectReference: {fileID: 1687860451}
+    - target: {fileID: 8830752592186189197, guid: 6d9c68caa8cb2574cb725256aee8ca76, type: 3}
       propertyPath: VictimUI
       value: 
-      objectReference: {fileID: 568406711}
+      objectReference: {fileID: 0}
     - target: {fileID: 8830752592186189197, guid: 6d9c68caa8cb2574cb725256aee8ca76, type: 3}
       propertyPath: WeaponUI
       value: 
-      objectReference: {fileID: 1986076594}
+      objectReference: {fileID: 0}
     - target: {fileID: 8830752592186189197, guid: 6d9c68caa8cb2574cb725256aee8ca76, type: 3}
       propertyPath: MurdererUI
       value: 
-      objectReference: {fileID: 962747077}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1267,6 +1249,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d134c0221fb07a94795b4b963c5741b1, type: 3}
+--- !u!114 &1687860451 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4844296273551640684, guid: c866563ea8628c44a97cdb65b2f49514, type: 3}
+  m_PrefabInstance: {fileID: 1710992097}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0540f50fa8ca42ac918210026a8d1d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Diary
 --- !u!1 &1694005494
 GameObject:
   m_ObjectHideFlags: 0
@@ -1433,6 +1426,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 3359742974431694623, guid: c866563ea8628c44a97cdb65b2f49514, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359742974431694623, guid: c866563ea8628c44a97cdb65b2f49514, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359742974431694623, guid: c866563ea8628c44a97cdb65b2f49514, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3555123141190032091, guid: c866563ea8628c44a97cdb65b2f49514, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 378
@@ -1524,6 +1529,10 @@ PrefabInstance:
     - target: {fileID: 6086806245281445998, guid: c866563ea8628c44a97cdb65b2f49514, type: 3}
       propertyPath: m_LocalPosition.y
       value: 351
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509670673591835708, guid: c866563ea8628c44a97cdb65b2f49514, type: 3}
+      propertyPath: m_TagString
+      value: Diary
       objectReference: {fileID: 0}
     - target: {fileID: 6819290765833997687, guid: c866563ea8628c44a97cdb65b2f49514, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2298,17 +2307,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d134c0221fb07a94795b4b963c5741b1, type: 3}
---- !u!114 &1986076594 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5340135005487968512, guid: c866563ea8628c44a97cdb65b2f49514, type: 3}
-  m_PrefabInstance: {fileID: 1710992097}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1001 &2059707895
 PrefabInstance:
   m_ObjectHideFlags: 0
