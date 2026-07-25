@@ -33,7 +33,7 @@ public class DialogueManager : MonoBehaviour
 
     private void Awake()
     {
-        if (enable){
+        if (enable && dialogues != null){
             // Connect objects
             mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
             player = GameObject.FindGameObjectWithTag("Player");

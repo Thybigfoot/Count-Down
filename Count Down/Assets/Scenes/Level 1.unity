@@ -1532,6 +1532,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6073669056276109915, guid: c866563ea8628c44a97cdb65b2f49514, type: 3}
+      propertyPath: enable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6073669056276109915, guid: c866563ea8628c44a97cdb65b2f49514, type: 3}
       propertyPath: victimEvidence
       value: 
       objectReference: {fileID: 269788008}
@@ -1539,6 +1543,14 @@ PrefabInstance:
       propertyPath: weaponEvidence
       value: 
       objectReference: {fileID: 2130310979}
+    - target: {fileID: 6073669056276109915, guid: c866563ea8628c44a97cdb65b2f49514, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6073669056276109915, guid: c866563ea8628c44a97cdb65b2f49514, type: 3}
+      propertyPath: 'dialogues.Array.data[0]'
+      value: 
+      objectReference: {fileID: 11400000, guid: a722b17a65df247d184a8f0f37aff849, type: 2}
     - target: {fileID: 6086806245281445998, guid: c866563ea8628c44a97cdb65b2f49514, type: 3}
       propertyPath: m_LocalPosition.x
       value: -269

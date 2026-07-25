@@ -294,10 +294,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   victimEvidence: {fileID: 0}
   weaponEvidence: {fileID: 0}
-  enable: 1
+  enable: 0
   characterDelay: 0.03
-  dialogues:
-  - {fileID: 11400000, guid: a722b17a65df247d184a8f0f37aff849, type: 2}
+  dialogues: []
 --- !u!1 &4718235499887295503
 GameObject:
   m_ObjectHideFlags: 0

@@ -16,8 +16,6 @@ public class PlayerInteractions : MonoBehaviour
 
     public void PickupEvidence(PickupType type, Sprite sprite)
     {
-        Debug.Log(diary);
-        Debug.Log(diary.GetComponent<Diary>());
         diary.GetComponent<Diary>().PickupEvidence(type, sprite);
     }
 }
