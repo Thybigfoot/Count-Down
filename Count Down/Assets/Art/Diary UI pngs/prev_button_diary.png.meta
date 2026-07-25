@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 0e7a2fc99be9f436392b10815e70335f
+guid: 194b762fdd8b74e36a840fca11716cdc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5975938820719141926
-    second: logout_0
-  - first:
-      213: 2282891400840467557
-    second: logout_1
+      213: 3708671844422615912
+    second: prev_button_diary_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: logout_0
+      name: prev_button_diary_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 343
-        height: 512
+        x: 122
+        y: 48
+        width: 194
+        height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: adb919fed43311da0800000000000000
-      internalID: -5975938820719141926
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: logout_1
-      rect:
-        serializedVersion: 2
-        x: 276
-        y: 191
-        width: 236
-        height: 216
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 564d3ef32a57eaf10800000000000000
-      internalID: 2282891400840467557
+      spriteID: 8638d43a469d77330800000000000000
+      internalID: 3708671844422615912
       vertices: []
       indices: 
       edges: []
@@ -160,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      logout_0: -5975938820719141926
-      logout_1: 2282891400840467557
+      prev_button_diary_0: 3708671844422615912
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

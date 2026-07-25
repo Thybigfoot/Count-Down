@@ -1,0 +1,1313 @@
+fileFormatVersion: 2
+guid: c72a578bc78154348a9c1bd0a56154aa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6565041557815717404
+    second: diary_without_squares_0
+  - first:
+      213: 2969480634080851953
+    second: diary_without_squares_1
+  - first:
+      213: 3680175402477037023
+    second: diary_without_squares_2
+  - first:
+      213: 5313315602877562587
+    second: diary_without_squares_3
+  - first:
+      213: 1260442113829491271
+    second: diary_without_squares_4
+  - first:
+      213: 3892569102381138753
+    second: diary_without_squares_5
+  - first:
+      213: 1512195068770805844
+    second: diary_without_squares_6
+  - first:
+      213: -6202511112246573250
+    second: diary_without_squares_7
+  - first:
+      213: 4246097130814175836
+    second: diary_without_squares_8
+  - first:
+      213: -2654599119065071355
+    second: diary_without_squares_9
+  - first:
+      213: -8414189176828729594
+    second: diary_without_squares_10
+  - first:
+      213: 8680502323811188225
+    second: diary_without_squares_11
+  - first:
+      213: -451796597401625788
+    second: diary_without_squares_12
+  - first:
+      213: 380639832896185486
+    second: diary_without_squares_13
+  - first:
+      213: -5598937618281521189
+    second: diary_without_squares_14
+  - first:
+      213: 9036587557659903223
+    second: diary_without_squares_15
+  - first:
+      213: -3777083355818773721
+    second: diary_without_squares_16
+  - first:
+      213: 3244386806684842693
+    second: diary_without_squares_17
+  - first:
+      213: -337554797966763574
+    second: diary_without_squares_18
+  - first:
+      213: 1770377980178337129
+    second: diary_without_squares_19
+  - first:
+      213: 6965217764590640436
+    second: diary_without_squares_20
+  - first:
+      213: -2393868262755208880
+    second: diary_without_squares_21
+  - first:
+      213: -7884290902240308335
+    second: diary_without_squares_22
+  - first:
+      213: 2628292863350404447
+    second: diary_without_squares_23
+  - first:
+      213: 2538149340214389545
+    second: diary_without_squares_24
+  - first:
+      213: -3875222456862934565
+    second: diary_without_squares_25
+  - first:
+      213: -1900357625123731572
+    second: diary_without_squares_26
+  - first:
+      213: -6447305081746593918
+    second: diary_without_squares_27
+  - first:
+      213: -976378283386952818
+    second: diary_without_squares_28
+  - first:
+      213: -753800067008809805
+    second: diary_without_squares_29
+  - first:
+      213: 148424655103070912
+    second: diary_without_squares_30
+  - first:
+      213: 5937721413285499133
+    second: diary_without_squares_31
+  - first:
+      213: -2613258202019761921
+    second: diary_without_squares_32
+  - first:
+      213: -3924849942392066678
+    second: diary_without_squares_33
+  - first:
+      213: -1553867899907796734
+    second: diary_without_squares_34
+  - first:
+      213: -3496913830180807053
+    second: diary_without_squares_35
+  - first:
+      213: 6808867381685714510
+    second: diary_without_squares_36
+  - first:
+      213: 7167770669766344499
+    second: diary_without_squares_37
+  - first:
+      213: -1575627515238015051
+    second: diary_without_squares_38
+  - first:
+      213: -6963218343389244204
+    second: diary_without_squares_39
+  - first:
+      213: -9072273470268567638
+    second: diary_without_squares_40
+  - first:
+      213: 3052950432634153383
+    second: diary_without_squares_41
+  - first:
+      213: -4838887779652508116
+    second: diary_without_squares_42
+  - first:
+      213: 178387218326269588
+    second: diary_without_squares_43
+  - first:
+      213: -6466319689958593578
+    second: diary_without_squares_44
+  - first:
+      213: 8675317652701065465
+    second: diary_without_squares_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: diary_without_squares_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 15
+        width: 1594
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e68458386bb1b50800000000000000
+      internalID: 6565041557815717404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 882
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f77ac957e6b53920800000000000000
+      internalID: 2969480634080851953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_2
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 863
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd526c7b70c921330800000000000000
+      internalID: 3680175402477037023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_3
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 855
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdebe01c360bcb940800000000000000
+      internalID: 5313315602877562587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_4
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 844
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742dfb6ac6dfd7110800000000000000
+      internalID: 1260442113829491271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 826
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143c61399fe250630800000000000000
+      internalID: 3892569102381138753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_6
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 834
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4586e2137656cf410800000000000000
+      internalID: 1512195068770805844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_7
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 825
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37412771014ce9a0800000000000000
+      internalID: -6202511112246573250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_8
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 788
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5afbfbf7da2dea30800000000000000
+      internalID: 4246097130814175836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_9
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 780
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 501cf077a28f82bd0800000000000000
+      internalID: -2654599119065071355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 726
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607ef22268bca3b80800000000000000
+      internalID: -8414189176828729594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_11
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 642
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ef7ba4fd6577870800000000000000
+      internalID: 8680502323811188225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_12
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 620
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b552d6365eab9f0800000000000000
+      internalID: -451796597401625788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_13
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 630
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84242b49ed484500800000000000000
+      internalID: 380639832896185486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_14
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 608
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf12ce86e39c42b0800000000000000
+      internalID: -5598937618281521189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_15
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 585
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4880c7188686d70800000000000000
+      internalID: 9036587557659903223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_16
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 552
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723b16123ba159bc0800000000000000
+      internalID: -3777083355818773721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_17
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 536
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5caf9667c90660d20800000000000000
+      internalID: 3244386806684842693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_18
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 513
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac956fe13b3c05bf0800000000000000
+      internalID: -337554797966763574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_19
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 492
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d04b2a465a19810800000000000000
+      internalID: 1770377980178337129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_20
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 482
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d5aa157ac69a060800000000000000
+      internalID: 6965217764590640436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_21
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 468
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051f46f8f7547ced0800000000000000
+      internalID: -2393868262755208880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_22
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 453
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1935f1a723f559290800000000000000
+      internalID: -7884290902240308335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_23
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 357
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f55f1b51f62997420800000000000000
+      internalID: 2628292863350404447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 341
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92bee529061593320800000000000000
+      internalID: 2538149340214389545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_25
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 339
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9711115b1783ac0800000000000000
+      internalID: -3875222456862934565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_26
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 311
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c878b48fec290a5e0800000000000000
+      internalID: -1900357625123731572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_27
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 301
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2876cebff229686a0800000000000000
+      internalID: -6447305081746593918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_28
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 288
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83a054df153372f0800000000000000
+      internalID: -976378283386952818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_29
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 288
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4364635d6f985f0800000000000000
+      internalID: -753800067008809805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_30
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 290
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2145bff6f4f0200800000000000000
+      internalID: 148424655103070912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_31
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 279
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0dc1e7a26076250800000000000000
+      internalID: 5937721413285499133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_32
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 273
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff07c3ac287dbbbd0800000000000000
+      internalID: -2613258202019761921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_33
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 148
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d220ba5c12889c0800000000000000
+      internalID: -3924849942392066678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_34
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 126
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2011d16b06d8f6ae0800000000000000
+      internalID: -1553867899907796734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_35
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 117
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e1ced1667787fc0800000000000000
+      internalID: -3496913830180807053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_36
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 72
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4efe180fc4fd7e50800000000000000
+      internalID: 6808867381685714510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_37
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 65
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ff2ea9279097360800000000000000
+      internalID: 7167770669766344499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_38
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 58
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf18e77f1f322ae0800000000000000
+      internalID: -1575627515238015051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_39
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 19
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4dcc43fcdad5f90800000000000000
+      internalID: -6963218343389244204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_40
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 18
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf0173885fc81280800000000000000
+      internalID: -9072273470268567638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_41
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 20
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9a8064e324e5a20800000000000000
+      internalID: 3052950432634153383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_42
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 19
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2665d1b331d8dcb0800000000000000
+      internalID: -4838887779652508116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_43
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 20
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49eaeccda32c97200800000000000000
+      internalID: 178387218326269588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_44
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 18
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db67e380840346a0800000000000000
+      internalID: -6466319689958593578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_without_squares_45
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f03ceaf07be46870800000000000000
+      internalID: 8675317652701065465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      diary_without_squares_0: 6565041557815717404
+      diary_without_squares_1: 2969480634080851953
+      diary_without_squares_10: -8414189176828729594
+      diary_without_squares_11: 8680502323811188225
+      diary_without_squares_12: -451796597401625788
+      diary_without_squares_13: 380639832896185486
+      diary_without_squares_14: -5598937618281521189
+      diary_without_squares_15: 9036587557659903223
+      diary_without_squares_16: -3777083355818773721
+      diary_without_squares_17: 3244386806684842693
+      diary_without_squares_18: -337554797966763574
+      diary_without_squares_19: 1770377980178337129
+      diary_without_squares_2: 3680175402477037023
+      diary_without_squares_20: 6965217764590640436
+      diary_without_squares_21: -2393868262755208880
+      diary_without_squares_22: -7884290902240308335
+      diary_without_squares_23: 2628292863350404447
+      diary_without_squares_24: 2538149340214389545
+      diary_without_squares_25: -3875222456862934565
+      diary_without_squares_26: -1900357625123731572
+      diary_without_squares_27: -6447305081746593918
+      diary_without_squares_28: -976378283386952818
+      diary_without_squares_29: -753800067008809805
+      diary_without_squares_3: 5313315602877562587
+      diary_without_squares_30: 148424655103070912
+      diary_without_squares_31: 5937721413285499133
+      diary_without_squares_32: -2613258202019761921
+      diary_without_squares_33: -3924849942392066678
+      diary_without_squares_34: -1553867899907796734
+      diary_without_squares_35: -3496913830180807053
+      diary_without_squares_36: 6808867381685714510
+      diary_without_squares_37: 7167770669766344499
+      diary_without_squares_38: -1575627515238015051
+      diary_without_squares_39: -6963218343389244204
+      diary_without_squares_4: 1260442113829491271
+      diary_without_squares_40: -9072273470268567638
+      diary_without_squares_41: 3052950432634153383
+      diary_without_squares_42: -4838887779652508116
+      diary_without_squares_43: 178387218326269588
+      diary_without_squares_44: -6466319689958593578
+      diary_without_squares_45: 8675317652701065465
+      diary_without_squares_5: 3892569102381138753
+      diary_without_squares_6: 1512195068770805844
+      diary_without_squares_7: -6202511112246573250
+      diary_without_squares_8: 4246097130814175836
+      diary_without_squares_9: -2654599119065071355
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
