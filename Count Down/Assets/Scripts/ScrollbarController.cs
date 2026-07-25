@@ -7,8 +7,9 @@ public class ScrollbarController : MonoBehaviour
 {
     [SerializeField] private Scrollbar scrollbar;
     [SerializeField] private TextMeshProUGUI valueText;
-    [SerializeField] private int maxStages = 4;
+    [SerializeField] private int maxStages = 3;
     public int currentStage = 1;
+    public bool allowPlayerInput = true;
 
     public static event Action<int> OnTimeStageChanged;
 
@@ -21,6 +22,8 @@ public class ScrollbarController : MonoBehaviour
     }
     private void Update()
     {
+        if (!allowPlayerInput) return;
+
         float speed = 0.75f;
 
         if (Input.GetKey(KeyCode.LeftArrow))
@@ -48,6 +51,17 @@ public class ScrollbarController : MonoBehaviour
         else
         {
             currentStage = newStage;
+        }
+    }
+
+    public void SetStage(int stage)
+    {
+        stage = Mathf.Clamp(stage, 1, maxStages);
+        scrollbar.value = (float)(stage - 1) / maxStages; // keep the visual scrollbar in sync
+        if (stage != currentStage)
+        {
+            currentStage = stage;
+            OnTimeStageChanged?.Invoke(currentStage);
         }
     }
 }
