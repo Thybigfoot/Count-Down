@@ -9,7 +9,6 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
-    
     private GameObject player;
     private GameObject diaryButton;
     private GameObject scrollbar;

@@ -3,24 +3,52 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 
 public class Diary : MonoBehaviour
 {
     // Current level - should be connected to some general game handler object that knows current level
-    private int currentLevel = 1;
+    private int currentLevel;
 
     private int currentPage = 0;
     public int maxPages = 0;
     [SerializeField] private GameObject pagePrefab;
-
-
     private List<DiaryPage> pages = new();
+
+    private int levelsInSet = 2;
+
+    public static Diary Instance { get; private set; }
+
+    private void Awake()
+    {
+        // Diary as a singleton
+        if (Instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        currentLevel = SceneManager.GetActiveScene().buildIndex;
+
+        // add another page if this level 
+        if (pages.Count == currentLevel / levelsInSet)
+        {
+            AddPage();
+        }
+    }
 
     private void Start()
     {
         AddPage();
         gameObject.SetActive(false);
+
+        currentLevel = SceneManager.GetActiveScene().buildIndex;
     }
 
     private void Update() {
@@ -68,7 +96,7 @@ public class Diary : MonoBehaviour
     public void PickupEvidence(PickupType type, Sprite sprite)
     {
         // Pass on parameters to the current page
-        pages[currentLevel/3].PickupEvidence(type, sprite);
+        pages[currentLevel/levelsInSet].PickupEvidence(type, sprite);
     }
     
     public void OnOpenButtonPressed()
