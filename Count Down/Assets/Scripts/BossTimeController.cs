@@ -12,9 +12,15 @@ public class BossTimeController : MonoBehaviour
     [SerializeField] private float telegraphDuration = 1f;
 
     [Header("Pattern (stage numbers, 1-based to match their system)")]
-    [SerializeField] private int[] pattern = { 1, 2, 3, 2 };
+    [SerializeField] private int[] pattern = { 1, 2, 3, 4, 3, 2 };
 
     private int patternIndex;
+    private bool paused;
+
+    public void SetPaused(bool value)
+    {
+        paused = value;
+    }
 
     private void Start()
     {
@@ -25,16 +31,25 @@ public class BossTimeController : MonoBehaviour
     {
         while (true)
         {
+            // If paused (e.g. player is riding the dino), wait here without scrubbing.
+            while (paused)
+                yield return null;
+
             int nextStage = pattern[patternIndex % pattern.Length];
             patternIndex++;
 
             yield return new WaitForSeconds(timeBetweenScrubs - telegraphDuration);
 
-            // Telegraph — for now just a console message so we can see it working.
+            // Don't scrub if we got paused during the wait.
+            while (paused)
+                yield return null;
+
             Debug.Log("Boss telegraphing stage: " + nextStage);
             yield return new WaitForSeconds(telegraphDuration);
 
-            // Drive the existing time system.
+            while (paused)
+                yield return null;
+
             scrollbarController.SetStage(nextStage);
         }
     }
