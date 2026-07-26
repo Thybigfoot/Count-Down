@@ -10,7 +10,8 @@ public class Evidence : MonoBehaviour
         if (!other.CompareTag("Player"))
             return;
 
-        other.GetComponent<PlayerInteractions>().PickupEvidence(type, GetComponent<SpriteRenderer>().sprite);
+        SFXManager.Instance.PlayEvidenceCollection();
+        Diary.Instance.GetComponent<Diary>().PickupEvidence(type, GetComponent<SpriteRenderer>().sprite);
 
         Destroy(gameObject);
     }
