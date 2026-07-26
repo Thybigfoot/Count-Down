@@ -1,30 +1,55 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.InputSystem;
 
 public class ScrollbarController : MonoBehaviour
 {
-    [SerializeField] private Scrollbar scrollbar;
+    [SerializeField] private Slider scrollbar;
     [SerializeField] private TextMeshProUGUI valueText;
-    [SerializeField] private float step = 0.05f;
-    [SerializeField] private int maxStages = 3;
+    [SerializeField] private int maxStages = 4;
     public int currentStage = 1;
+
+    public static event Action<int> OnTimeStageChanged;
 
     private void Start()
     {
+        //scrollbar.direction = Slider.Direction.RightToLeft; // can also just set this in Inspector
+        scrollbar.minValue = 1f;
+        scrollbar.maxValue = maxStages;
         scrollbar.onValueChanged.AddListener(UpdateText);
-        UpdateText(scrollbar.value); // Display initial value
+        UpdateText(scrollbar.value); // Display initial value and set initial visuals
     }
+    private void Update()
+    {
+        float speed = 0.75f;
 
+        if (Input.GetKey(KeyCode.LeftArrow))
+            scrollbar.value += speed * Time.deltaTime;
+
+        if (Input.GetKey(KeyCode.RightArrow))
+            scrollbar.value -= speed * Time.deltaTime;
+    }
     private void UpdateText(float value)
     {
-        currentStage = Mathf.CeilToInt(maxStages * value);
+        //int newStage = Mathf.FloorToInt(value * maxStages) + 1;
+        int newStage = Mathf.FloorToInt(value);
 
-        if (currentStage == 0)
+        if (newStage > maxStages)
         {
-            currentStage = 1;
+            newStage = maxStages;
         }
-        valueText.text = "Current stage: " + currentStage.ToString();
+
+        valueText.text = "Current stage: " + newStage.ToString();
+
+        if (newStage != currentStage)
+        {
+            currentStage = newStage;
+            OnTimeStageChanged?.Invoke(currentStage);
+        }
+        else
+        {
+            currentStage = newStage;
+        }
     }
 }

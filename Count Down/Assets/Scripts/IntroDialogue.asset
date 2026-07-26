@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbed8598a3926447ea431b8f872b53c9, type: 3}
+  m_Name: IntroDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - text: 'What have we got here? '
+    flag: player_zoom
+  - text: Another murder..
+    flag: victim_zoom
+  - text: Luckily the suspect has left behind some evidence
+    flag: weapon_zoom
+  - text: 'I will log all the evidence I find into my diary '
+    flag: diary
+  - text: Using CCTV I can see how the room looked like since the murder, which will
+      help me find more evidence
+    flag: scrollbar
+  - text: Once I fill out the first page of my diary, I can move onto the next room
+    flag: exit
+  - text: That way I can crack this case!
+    flag: player_zoom

@@ -19,16 +19,23 @@ namespace TarodevController
         private FrameInput _frameInput;
         private Vector2 _frameVelocity;
         private bool _cachedQueryStartInColliders;
+        private bool _canMove = true;
+
 
         #region Interface
 
         public Vector2 FrameInput => _frameInput.Move;
         public event Action<bool, float> GroundedChanged;
         public event Action Jumped;
-
+        public bool Grounded => _grounded;
+         
         #endregion
 
         private float _time;
+        public void SetMovementEnabled(bool enabled)
+        {
+            _canMove = enabled;
+        }
 
         private void Awake()
         {
@@ -46,11 +53,20 @@ namespace TarodevController
 
         private void GatherInput()
         {
+            if (!_canMove)
+            {
+                _frameInput = new FrameInput();
+                return;
+            }
             _frameInput = new FrameInput
             {
                 JumpDown = Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.C),
                 JumpHeld = Input.GetButton("Jump") || Input.GetKey(KeyCode.C),
-                Move = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"))
+                Move = new Vector2(
+                    (Input.GetKey(KeyCode.D) ? 1 : 0) + (Input.GetKey(KeyCode.A) ? -1 : 0),
+                    (Input.GetKey(KeyCode.W) ? 1 : 0) + (Input.GetKey(KeyCode.S) ? -1 : 0)
+                ),
+                              
             };
 
             if (_stats.SnapInput)
@@ -68,6 +84,12 @@ namespace TarodevController
 
         private void FixedUpdate()
         {
+            if (!_canMove)
+            {
+                _rb.linearVelocity = Vector2.zero;
+                return;
+            }
+            
             CheckCollisions();
 
             HandleJump();
@@ -81,20 +103,33 @@ namespace TarodevController
         
         private float _frameLeftGrounded = float.MinValue;
         private bool _grounded;
+        private Walking _currentPlatform;
 
         private void CheckCollisions()
         {
             Physics2D.queriesStartInColliders = false;
 
             // Ground and Ceiling
-            bool groundHit = Physics2D.CapsuleCast(_col.bounds.center, _col.size, _col.direction, 0, Vector2.down, _stats.GrounderDistance, ~_stats.PlayerLayer);
+            RaycastHit2D groundHit = Physics2D.CapsuleCast(
+                _col.bounds.center,
+                _col.size,
+                _col.direction,
+                0,
+                Vector2.down,
+                _stats.GrounderDistance,
+                ~_stats.PlayerLayer
+            );
+
+            bool grounded = groundHit;
+
+
             bool ceilingHit = Physics2D.CapsuleCast(_col.bounds.center, _col.size, _col.direction, 0, Vector2.up, _stats.GrounderDistance, ~_stats.PlayerLayer);
 
             // Hit a Ceiling
             if (ceilingHit) _frameVelocity.y = Mathf.Min(0, _frameVelocity.y);
 
             // Landed on the Ground
-            if (!_grounded && groundHit)
+            if (!_grounded && grounded)
             {
                 _grounded = true;
                 _coyoteUsable = true;
@@ -103,11 +138,19 @@ namespace TarodevController
                 GroundedChanged?.Invoke(true, Mathf.Abs(_frameVelocity.y));
             }
             // Left the Ground
-            else if (_grounded && !groundHit)
+            else if (_grounded && !grounded)
             {
                 _grounded = false;
                 _frameLeftGrounded = _time;
                 GroundedChanged?.Invoke(false, 0);
+            }
+            if (grounded)
+            {
+                _currentPlatform = groundHit.collider.GetComponent<Walking>();
+            }
+            else
+            {
+                _currentPlatform = null;
             }
 
             Physics2D.queriesStartInColliders = _cachedQueryStartInColliders;
@@ -164,6 +207,11 @@ namespace TarodevController
                 _frameVelocity.x = Mathf.MoveTowards(_frameVelocity.x, _frameInput.Move.x * _stats.MaxSpeed, _stats.Acceleration * Time.fixedDeltaTime);
             }
         }
+        private float _externalVelocity;
+        public void Bounce(float force)
+        {
+             _externalVelocity = force;
+        }
 
         #endregion
 
@@ -185,7 +233,23 @@ namespace TarodevController
 
         #endregion
 
-        private void ApplyMovement() => _rb.linearVelocity = _frameVelocity;
+        private void ApplyMovement()
+        {
+            if (_externalVelocity != 0)
+            {
+                _frameVelocity.y = _externalVelocity;
+                _externalVelocity = 0;
+            }
+
+            Vector2 movement = _frameVelocity;
+
+            if (_currentPlatform != null)
+            {
+                transform.position += (Vector3)_currentPlatform.DeltaMovement;
+            }
+
+            _rb.linearVelocity = movement;
+        }
 
 #if UNITY_EDITOR
         private void OnValidate()
