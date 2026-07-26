@@ -82,7 +82,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -8289824334113805635, guid: 3b25182ea870e894cb7a050b79a940eb, type: 3}
+  m_Sprite: {fileID: 308063160859517709, guid: 9b787fe54c1a762478abeafe4b0af504, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -128,9 +128,9 @@ PolygonCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0.26999998, w: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.81, y: 2.71}
+    oldSize: {x: 2.27, y: 3.23}
     newSize: {x: 3.1, y: 2.91}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -138,20 +138,21 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.9332865, y: 0.82623065}
-      - {x: 0.51161665, y: 1.0307182}
-      - {x: 0.24077442, y: 1.2401816}
-      - {x: -0.27670047, y: 1.3127289}
-      - {x: -0.82551897, y: 1.2150263}
-      - {x: -1.0973622, y: 1.1223958}
-      - {x: -1.3899932, y: 0.8059678}
-      - {x: -1.3445624, y: 0.771701}
-      - {x: -1.0320973, y: 0.88367397}
-      - {x: 0.055688024, y: 0.9338303}
-      - {x: 1.0957755, y: 0.52834356}
-      - {x: 1.125789, y: 0.5133368}
-      - {x: 1.1498855, y: 0.5658605}
-      - {x: 1.1423825, y: 0.5971605}
+    - - {x: 0.54969263, y: 1.3074743}
+      - {x: 0.2744853, y: 1.5537984}
+      - {x: -0.08702582, y: 1.561001}
+      - {x: -0.45106217, y: 1.6195961}
+      - {x: -0.85500014, y: 1.5498393}
+      - {x: -0.8743414, y: 1.4103161}
+      - {x: -0.9927461, y: 1.2967526}
+      - {x: -1.0342937, y: 0.52698517}
+      - {x: -0.85635257, y: 0.36717904}
+      - {x: -0.36952567, y: 0.48613295}
+      - {x: 0.14635691, y: 0.6687997}
+      - {x: 0.44017988, y: 0.7166623}
+      - {x: 0.5469103, y: 0.84811795}
+      - {x: 0.46639073, y: 0.83089113}
+      - {x: 0.696019, y: 0.945884}
   m_UseDelaunayMesh: 1
 --- !u!1 &2206206836152333192
 GameObject:
@@ -169,7 +170,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1614693905385234673
 Transform:
   m_ObjectHideFlags: 0
@@ -235,7 +236,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -8613572765308653109, guid: 9ceca8b663d5daa4ebbb195708c9b551, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.058823533, g: 0.07058824, b: 0.1764706, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -307,8 +308,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2216966040366205536}
   - component: {fileID: 2853124292124777462}
-  - component: {fileID: 7147050303138879661}
   - component: {fileID: 3109418004552813706}
+  - component: {fileID: 385428900249660844}
   m_Layer: 0
   m_Name: Bouncy Shroom
   m_TagString: Untagged
@@ -325,8 +326,8 @@ Transform:
   m_GameObject: {fileID: 6542567864516084723}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.36, z: 0}
-  m_LocalScale: {x: 0.61993, y: 0.61993, z: 0.61993}
+  m_LocalPosition: {x: -0.0066376, y: -3.2245, z: 0}
+  m_LocalScale: {x: 1.5608277, y: 1.5608277, z: 1.5608277}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7827195318932423457}
@@ -380,7 +381,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7013128264068335301, guid: 064cb7250bee18a4d8fd20a687d02d8d, type: 3}
+  m_Sprite: {fileID: 1695894527669508298, guid: 3fd9b94fb5eaa58458bb63e17d4b6286, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -390,8 +391,21 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!60 &7147050303138879661
-PolygonCollider2D:
+--- !u!114 &3109418004552813706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6542567864516084723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a862f903126553e4186df8ba16ae44a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  bounceForce: 70
+--- !u!61 &385428900249660844
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -424,43 +438,18 @@ PolygonCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.5674079}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0.01}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6.01, y: 5.81}
+    oldSize: {x: 2.24, y: 2.16}
     newSize: {x: 7, y: 6.56}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 2.5177155, y: 2.1534748}
-      - {x: 1.7725405, y: 2.646224}
-      - {x: 1.1794524, y: 2.8988929}
-      - {x: -0.27364635, y: 2.9177089}
-      - {x: -1.2484353, y: 2.7803774}
-      - {x: -2.3454382, y: 2.2252426}
-      - {x: -2.9344332, y: 1.5501238}
-      - {x: -2.9485466, y: 0.9902692}
-      - {x: -0.048224688, y: 0.97615576}
-      - {x: 2.9626596, y: 1.1172893}
-      - {x: 2.7933013, y: 1.8041629}
-  m_UseDelaunayMesh: 1
---- !u!114 &3109418004552813706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6542567864516084723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a862f903126553e4186df8ba16ae44a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  bounceForce: 70
+  m_Size: {x: 2.24, y: 1.0251845}
+  m_EdgeRadius: 0
 --- !u!1 &8919151354446494339
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,15 +460,15 @@ GameObject:
   m_Component:
   - component: {fileID: 3348624786232445593}
   - component: {fileID: 1690609978487475870}
-  - component: {fileID: 2219544565991901575}
   - component: {fileID: 5678244174271796548}
+  - component: {fileID: 1812244963214472546}
   m_Layer: 0
   m_Name: Bouncy Shroom (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3348624786232445593
 Transform:
   m_ObjectHideFlags: 0
@@ -489,8 +478,8 @@ Transform:
   m_GameObject: {fileID: 8919151354446494339}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.36, z: 0}
-  m_LocalScale: {x: 0.61993, y: 0.61993, z: 0.61993}
+  m_LocalPosition: {x: -0.0059814, y: -3.1379, z: 0}
+  m_LocalScale: {x: 1.4665066, y: 1.4665066, z: 1.4665066}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7827195318932423457}
@@ -544,7 +533,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7013128264068335301, guid: 064cb7250bee18a4d8fd20a687d02d8d, type: 3}
+  m_Sprite: {fileID: 1695894527669508298, guid: 3fd9b94fb5eaa58458bb63e17d4b6286, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -554,8 +543,21 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!60 &2219544565991901575
-PolygonCollider2D:
+--- !u!114 &5678244174271796548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8919151354446494339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a862f903126553e4186df8ba16ae44a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  bounceForce: 70
+--- !u!61 &1812244963214472546
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -588,40 +590,15 @@ PolygonCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.55860853}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0.01}
+    border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6.01, y: 5.81}
+    oldSize: {x: 2.24, y: 2.16}
     newSize: {x: 7, y: 6.56}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 2.5177155, y: 2.1534748}
-      - {x: 1.7725405, y: 2.646224}
-      - {x: 1.1794524, y: 2.8988929}
-      - {x: -0.27364635, y: 2.9177089}
-      - {x: -1.2484353, y: 2.7803774}
-      - {x: -2.3454382, y: 2.2252426}
-      - {x: -2.9344332, y: 1.5501238}
-      - {x: -2.9485466, y: 0.9902692}
-      - {x: -0.048224688, y: 0.97615576}
-      - {x: 2.9626596, y: 1.1172893}
-      - {x: 2.7933013, y: 1.8041629}
-  m_UseDelaunayMesh: 1
---- !u!114 &5678244174271796548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8919151354446494339}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a862f903126553e4186df8ba16ae44a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  bounceForce: 70
+  m_Size: {x: 2.24, y: 1.0427828}
+  m_EdgeRadius: 0
