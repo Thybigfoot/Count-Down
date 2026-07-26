@@ -30,25 +30,29 @@ public class Diary : MonoBehaviour
 
         Instance = this;
         DontDestroyOnLoad(gameObject);
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         currentLevel = SceneManager.GetActiveScene().buildIndex;
 
-        // add another page if this level 
+        Debug.Log(currentLevel);
+        // add another page if the pages do not cover this level
         if (pages.Count == currentLevel / levelsInSet)
         {
             AddPage();
+            Debug.Log("Added page");
         }
+    }
+    private void OnDestroy()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
     private void Start()
     {
-        AddPage();
         gameObject.SetActive(false);
-
-        currentLevel = SceneManager.GetActiveScene().buildIndex;
     }
 
     private void Update() {
