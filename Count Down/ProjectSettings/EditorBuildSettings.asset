@@ -41,7 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BossRoom4.unity
     guid: 5a2449c980102bd4895ebdcd8e12774f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/level template 1.unity
     guid: d3e4ec769c7d6d348a2cc88bf41714f0
   m_configObjects:
