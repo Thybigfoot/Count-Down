@@ -15,7 +15,7 @@ public class Diary : MonoBehaviour
     [SerializeField] private GameObject pagePrefab;
     private List<DiaryPage> pages = new();
 
-    private int levelsInSet = 2;
+    private int levelsInSet = 3;
 
     public static Diary Instance { get; private set; }
 
