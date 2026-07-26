@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5afe68feda524a5439a73bf46c7e163f
+guid: 3b9d352a969d84a468ab4a2f36b95ce5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4783911325908988818
-    second: Tyrannosaurus_Rex_colored_0
+      213: 6336146064336810768
+    second: platform4b 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tyrannosaurus_Rex_colored_0
+      name: platform4b 1_0
       rect:
         serializedVersion: 2
-        x: 55
-        y: 237
-        width: 3663
-        height: 2142
+        x: 46
+        y: 489
+        width: 530
+        height: 94
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e6c0a3ecef12c9db0800000000000000
-      internalID: -4783911325908988818
+      spriteID: 013f8c176438ee750800000000000000
+      internalID: 6336146064336810768
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3ab3a2a490138984abd4dfaa37b9880e
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Tyrannosaurus_Rex_colored_0: -4783911325908988818
+      platform4b 1_0: 6336146064336810768
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
