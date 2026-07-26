@@ -19,7 +19,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1574147079174231025
 Transform:
   m_ObjectHideFlags: 0
@@ -155,6 +155,7 @@ MonoBehaviour:
   pointA: {fileID: 5813661508719614982}
   pointB: {fileID: 323058473385131869}
   speed: 5
+  pauseDuration: 0.4
 --- !u!114 &1841313135626226509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,7 +184,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7984566352629738869
 Transform:
   m_ObjectHideFlags: 0
