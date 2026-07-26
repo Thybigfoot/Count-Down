@@ -52,4 +52,22 @@ public class ScrollbarController : MonoBehaviour
             currentStage = newStage;
         }
     }
+     public void SetStage(int stage)
+    {
+        UpdateStage(stage);
+    }
+
+    private void UpdateStage(int newStage)
+    {
+        newStage = Mathf.Clamp(newStage, 1, maxStages);
+
+        if (valueText != null)
+            valueText.text = "Current stage: " + newStage.ToString();
+
+        if (newStage != currentStage)
+        {
+            currentStage = newStage;
+            OnTimeStageChanged?.Invoke(currentStage);
+        }
+    }
 }

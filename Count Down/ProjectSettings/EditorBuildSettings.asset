@@ -12,11 +12,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 2.unity
     guid: dd9756872d7f3544b8c20ca30476c2bc
   - enabled: 1
+    path: Assets/Scenes/BossRoom1.unity
+    guid: 7041064ca9754cf42b8a174d38ce9165
+  - enabled: 1
     path: Assets/Scenes/Level 3.unity
     guid: 8e38b54146367e84987565f379d02290
   - enabled: 1
     path: Assets/Scenes/Level 4.unity
     guid: a19b8c1e9edfb43478aec8e365445cbf
+  - enabled: 1
+    path: Assets/Scenes/BossRoom2.unity
+    guid: e3708a3673eda8a4d9150d43f77b1125
   - enabled: 1
     path: Assets/Scenes/Level 5.unity
     guid: 99c1ae68c4bcc4f46af84483c2f8b99b
@@ -24,11 +30,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 6.unity
     guid: 728b79b32fa249b4391cbf6e3f4c28b2
   - enabled: 1
+    path: Assets/Scenes/BossRoom3.unity
+    guid: 54a1394fc2152d842a9349cf531f06d0
+  - enabled: 1
     path: Assets/Scenes/Level 7.unity
     guid: 13f02868f8adc884fae0e4e8a6ecdd2f
   - enabled: 1
     path: Assets/Scenes/Level 8.unity
     guid: b683391338245ff41abdd92e096cef6d
+  - enabled: 1
+    path: Assets/Scenes/BossRoom4.unity
+    guid: 5a2449c980102bd4895ebdcd8e12774f
   - enabled: 1
     path: Assets/Scenes/level template 1.unity
     guid: d3e4ec769c7d6d348a2cc88bf41714f0

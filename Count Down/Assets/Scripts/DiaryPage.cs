@@ -20,17 +20,14 @@ public class DiaryPage : MonoBehaviour
     {
         pageNumber = pN;
         number.text = pageNumber.ToString();
-    }
 
-    private void Awake()
-    {
         // Set evidence
         foreach (Image image in GetComponentsInChildren<Image>(true))
         {
             evidence[image.gameObject.name] = image;
         }
     }
-
+    
     public void PickupEvidence(PickupType type, Sprite sprite)
     {
         Debug.Log(evidence[type.ToString()]);

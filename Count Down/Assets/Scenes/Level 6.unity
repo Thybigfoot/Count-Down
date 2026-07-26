@@ -493,6 +493,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: EvidenceMurderer
       objectReference: {fileID: 0}
+    - target: {fileID: 3686785280941235015, guid: 6f9d49c4703a8b149a8504201d23883d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1667664292612734564, guid: 71a773f00fe7d4bbfbadbc287d5e7bca, type: 3}
+    - target: {fileID: 7317230522620593857, guid: 6f9d49c4703a8b149a8504201d23883d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317230522620593857, guid: 6f9d49c4703a8b149a8504201d23883d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317230522620593857, guid: 6f9d49c4703a8b149a8504201d23883d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7317230522620593857, guid: 6f9d49c4703a8b149a8504201d23883d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18.75
@@ -546,6 +562,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3111598784842673656, guid: c6f171439dba744d9a283296fdf43a9d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3111598784842673656, guid: c6f171439dba744d9a283296fdf43a9d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3111598784842673656, guid: c6f171439dba744d9a283296fdf43a9d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3111598784842673656, guid: c6f171439dba744d9a283296fdf43a9d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -65.34
@@ -2720,6 +2748,22 @@ PrefabInstance:
     - target: {fileID: 1105504580871213921, guid: 52868ae249b824c1d9a567e9c8221ba3, type: 3}
       propertyPath: m_Name
       value: EvidenceFingerprint
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825725382358942670, guid: 52868ae249b824c1d9a567e9c8221ba3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: acfd5c181819a4a6993c09d467095ac3, type: 3}
+    - target: {fileID: 5445013078462183372, guid: 52868ae249b824c1d9a567e9c8221ba3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445013078462183372, guid: 52868ae249b824c1d9a567e9c8221ba3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445013078462183372, guid: 52868ae249b824c1d9a567e9c8221ba3, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5445013078462183372, guid: 52868ae249b824c1d9a567e9c8221ba3, type: 3}
       propertyPath: m_LocalPosition.x

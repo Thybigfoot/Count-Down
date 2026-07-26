@@ -45,8 +45,14 @@ public class DialogueManager : MonoBehaviour
             player.GetComponent<PlayerController>().SetMovementEnabled(false);
 
             // Hide other UI
-            diaryButton.SetActive(false);
-            scrollbar.SetActive(false);
+            if (diaryButton != null)
+            {
+                diaryButton.SetActive(false);
+            }
+            if (scrollbar != null)
+            {
+                scrollbar.SetActive(false);
+            }
 
             // Zoom in on the player
             Camera.main.orthographicSize = 5f;
