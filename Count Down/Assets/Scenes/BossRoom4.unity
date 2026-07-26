@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f69a73a412c921347bdada5203e6b985, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DinoTimeLock
-  boss: {fileID: 1112423767}
+  boss: {fileID: 0}
   pointB: {fileID: 1688061963}
   arriveThreshold: 0.2
 --- !u!1001 &8160464
@@ -1843,6 +1843,71 @@ MonoBehaviour:
   useBounds: 0
   minBounds: {x: 0, y: 0}
   maxBounds: {x: 0, y: 0}
+--- !u!1001 &848312378
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3424780529642432774, guid: c812b5c43a5e144e38e233a64915f4f1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 225.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3424780529642432774, guid: c812b5c43a5e144e38e233a64915f4f1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 18.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3424780529642432774, guid: c812b5c43a5e144e38e233a64915f4f1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3424780529642432774, guid: c812b5c43a5e144e38e233a64915f4f1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3424780529642432774, guid: c812b5c43a5e144e38e233a64915f4f1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3424780529642432774, guid: c812b5c43a5e144e38e233a64915f4f1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3424780529642432774, guid: c812b5c43a5e144e38e233a64915f4f1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3424780529642432774, guid: c812b5c43a5e144e38e233a64915f4f1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3424780529642432774, guid: c812b5c43a5e144e38e233a64915f4f1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3424780529642432774, guid: c812b5c43a5e144e38e233a64915f4f1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5284847969203832866, guid: c812b5c43a5e144e38e233a64915f4f1, type: 3}
+      propertyPath: scrollbarController
+      value: 
+      objectReference: {fileID: 719285163}
+    - target: {fileID: 6762682796626638920, guid: c812b5c43a5e144e38e233a64915f4f1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6618183331691823211, guid: a8c0c96253d9e4eefa8cf8e28ad402c7, type: 3}
+    - target: {fileID: 7576995971954097278, guid: c812b5c43a5e144e38e233a64915f4f1, type: 3}
+      propertyPath: m_Name
+      value: Boss
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c812b5c43a5e144e38e233a64915f4f1, type: 3}
 --- !u!1001 &1022825989
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2152,54 +2217,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1 &1112423766
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1112423768}
-  - component: {fileID: 1112423767}
-  m_Layer: 0
-  m_Name: Boss
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1112423767
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1112423766}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dee7f11ae52614b4fadd04c02aefb9f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BossTimeController
-  scrollbarController: {fileID: 719285163}
-  timeBetweenScrubs: 4
-  telegraphDuration: 1
-  pattern: 010000000200000003000000040000000300000002000000
---- !u!4 &1112423768
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1112423766}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.24147, y: -0.23344, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1159636376 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5999936729171662895, guid: 6d9c68caa8cb2574cb725256aee8ca76, type: 3}
@@ -3507,7 +3524,7 @@ SceneRoots:
   - {fileID: 777839125}
   - {fileID: 1985643426}
   - {fileID: 1549962293}
-  - {fileID: 1112423768}
+  - {fileID: 848312378}
   - {fileID: 719285162}
   - {fileID: 1395442465}
   - {fileID: 1274766157}
